@@ -8,13 +8,7 @@ import CertificateOfAppreciation from "../../assets/Certificate Of Appreciation.
 
 const Certifications = () => {
   const certifications = [
-    {
-      title: "Internship Completion",
-      issuer: "CodeTech It Solutions",
-      year: "2025",
-      desc: "Successfully completed internship as a React Developer, gaining hands-on experience in Live projects.",
-      img: CodeTech,
-    },
+    
     {
       title: "Internship Completion",
       issuer: "WAY2REACH",
@@ -26,13 +20,20 @@ const Certifications = () => {
       title: "Certificate of Appreciation",
       issuer: "WAY2REACH",
       year: "2025",
-      desc: "Recognized for valuable contribution and active participation in community-driven coding sessions.",
+      desc: "Recognized for valuable contribution and active participation in impactful community-driven coding sessions.",
       img: CertificateOfAppreciation,
+    },
+    {
+      title: "Internship Completion",
+      issuer: "CodeTech It Solutions",
+      year: "2025",
+      desc: "Successfully completed internship as a React Developer, gaining hands-on experience in Live projects.",
+      img: CodeTech,
     },
   ];
 
   return (
-    <section className="certifications" id="certifications">
+    <section className="certifications" id="certificate">
       <h2 className="certifications-title">📜 Certifications</h2>
       <div className="certifications-list">
         {certifications.map((cert, index) => (

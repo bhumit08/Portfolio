@@ -1,30 +1,30 @@
 import React from "react";
 import "./Project.css";
-import portfolioImg from "../../assets/project_1.svg"; // Replace with actual screenshot
-import reminderAppImg from "../../assets/project_2.svg"; // Replace with actual screenshot
-import jobPortalImg from "../../assets/project_3.svg"; // Replace with actual screenshot
+import portfolio from "../../assets/portfolio.png"; 
+import clothing from "../../assets/clothing.png"; 
+import interior from "../../assets/interior.png"; 
 
 const projects = [
   {
     title: "My Portfolio",
-    description: "A personal portfolio website showcasing my projects and skills.",
-    liveLink: "https://portfolio.vercel.app", // Replace with actual live link
-    githubLink: "https://github.com/yourusername/portfolio", // Replace with actual GitHub link
-    image: portfolioImg,
+    description: "A personal portfolio website showcasing my projects and skills. Built to highlight my expertise professionally.",
+    liveLink: "https://portfolio-five-indol-b2946eauyu.vercel.app/",
+    githubLink: "https://github.com/bhumit08/portfolio",
+    image: portfolio,
   },
   {
-    title: "Reminder App",
-    description: "A simple app to set reminders and manage tasks efficiently.",
-    liveLink: "https://reminderapp.vercel.app", // Replace with actual live link
-    githubLink: "https://github.com/yourusername/reminderapp", // Replace with actual GitHub link
-    image: reminderAppImg,
+    title: "Clothing e-commerce Website",
+    description: "An e-commerce platform for clothing with product listings and secure payment integration. Designed for a smooth shopping experience.",
+    liveLink: "https://clothing-e-commerce-website-fl5y.vercel.app/",
+    githubLink: "https://github.com/bhumit08/Clothing-e-commerce-website",
+    image:clothing
   },
   {
-    title: "Job Recruitment Portal",
-    description: "A platform for job seekers and recruiters to connect.",
-    liveLink: "https://jobportal.vercel.app", // Replace with actual live link
-    githubLink: "https://github.com/yourusername/jobportal", // Replace with actual GitHub link
-    image: jobPortalImg,
+    title: "Interior Designing",
+    description: "A platform for showcasing interior design ideas. Currently under development to deliver creative solutions.",
+    liveLink: "https://interior-design-six-gamma.vercel.app/", 
+    githubLink: "https://github.com/bhumit08/Interior-Design",
+    image: interior,
   },
 ];
 

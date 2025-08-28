@@ -19,7 +19,7 @@ const Hero = () => {
           <a href="#contact" className="btn-primary">
             Connect With Me
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline">
+          <a href="/Bhumit Thumar Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-outline">
             My Resume
           </a>
         </div>

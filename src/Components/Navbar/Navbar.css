@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-between;
   margin: 15px 80px; /* reduced margins for balance */
+  /* position: fixed; */
+  
 }
 
 /* Logo */

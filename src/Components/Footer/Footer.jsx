@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="footer-socials">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/bhumit08"
             target="_blank"
             rel="noopener noreferrer"
             className="github"
@@ -17,7 +17,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/bhumit-thumar-153189373/"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin"
@@ -25,13 +25,13 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:yourmail@example.com"
+            href="mailto:bhumitthumar17@gmail.com"
             className="email"
           >
             <FaEnvelope />
           </a>
           <a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/9313228766"
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp"
