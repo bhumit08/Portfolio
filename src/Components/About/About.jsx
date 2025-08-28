@@ -29,6 +29,7 @@ const About = () => {
           <div className="about-skills">
             <h4 className="skills-heading">Skills</h4>
             <ul className="skills-list">
+              <li>C/C++</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Tailwind</li>
