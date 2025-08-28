@@ -1,0 +1,236 @@
+/* .about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.about-title{
+  position: relative;
+
+}
+.about-title h1{
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+.about-title img{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.about-sections{
+  display:flex;
+  gap:80px;
+}
+.about-right{
+  display: flex;
+  flex-direction: column;
+  gap:80px;
+}
+.about-para{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.about-skills{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.about-skill{
+  display: flex;
+  gap:50px;
+  align-items: center;
+  transition: 0.3s;
+}
+.about-skill p{
+  min-width:150px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.about-skill hr{
+  outline: none;
+  border:none;
+  width: 50%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+}
+.about-achievements{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.about-achievement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  transition: 0.5s;
+} */
+
+
+
+/* ===== Overall Section ===== */
+.about-section {
+  background-color: #05050505; /* Deep black background */
+  color: #fff; /* White text for contrast */
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+  align-items: center;
+}
+
+/* ===== Left Section (Profile) ===== */
+.about-profile {
+  flex: 1;
+  text-align: center;
+}
+
+.about-profile-img {
+  width: 300px; /* Rectangle width */
+  height: 450px; /* Rectangle height */
+  border-radius: 10px; /* Slightly rounded corners */
+  border: 1px solid #8f8b7f; /* Gold accent */
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.about-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #aaa; /* Subtle gray for the title */
+  margin-top: 5px;
+}
+
+/* ===== Right Section (Content) ===== */
+.about-content {
+  flex: 2;
+}
+
+.about-heading {
+  font-size: 32px;
+  font-weight: 700; 
+  /* color: #9e446ea9;  */
+  color:rgb(163, 79, 163); 
+  
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(143, 101, 143);
+  display: inline-block;
+  padding-bottom: 5px; 
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ddd; /* Light gray for readability */
+  margin-bottom: 30px;
+}
+
+/* ===== Skills Section ===== */
+.about-skills {
+  margin-bottom: 30px;
+}
+
+.skills-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color:rgb(163, 79, 163);
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list li {
+  background: #333; /* Dark gray for skill badges */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+  background: #ccc9ce73; /* Gold on hover */
+  color: #000; /* Black text on hover */
+  cursor: pointer;
+}
+
+/* ===== Education Section ===== */
+.about-education {
+  margin-bottom: 30px;
+}
+
+.education-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color:rgb(163, 79, 163);
+  margin-bottom: 15px;
+}
+
+.education-card {
+  background: #111; /* Darker gray for cards */
+  border: 1px solid #333;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  box-shadow: 0 4px 3px rgba(151, 133, 72, 0.5); /* Gold shadow */
+}
+
+.education-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.education-card p {
+  font-size: 14px;
+  color: #aaa; /* Subtle gray for text */
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 900px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-profile {
+    margin-bottom: 30px;
+  }
+
+  .skills-list {
+    justify-content: center;
+  }
+}

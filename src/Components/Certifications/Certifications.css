@@ -1,0 +1,65 @@
+.certifications {
+  padding: 60px 8%;
+  text-align: center;
+  background: #00000000; /* Same as Hero/About background */
+  color: #f5f5f5;
+}
+
+.certifications-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #ffce4e; /* Highlight color */
+}
+
+.certifications-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  justify-content: center;
+}
+
+.cert-card {
+  background: #1b1b1b; /* Flat dark card */
+  border: 1px solid #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.cert-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.cert-issuer {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.cert-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #dcdcdc;
+  margin-bottom: 15px;
+}
+
+/* Simple clean button */
+.view-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #333;
+  color: #f5f5f5;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.view-btn:hover {
+  background: #444;
+}

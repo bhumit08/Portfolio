@@ -1,0 +1,74 @@
+.contact {
+  padding: 60px 8%;
+  background: #11111100; /* Same background as Hero/About */
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffce4e; /* Highlight */
+}
+
+.contact-subtitle {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  background: #1c1c1c;
+  padding: 20px 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 280px;
+}
+
+.contact-item h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffce4e;
+}
+
+.contact-item p {
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #e2e2e2;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+/* WhatsApp button */
+.contact-btn.whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+.contact-btn.whatsapp:hover {
+  background: #1ebe57;
+}
+
+/* Email button */
+.contact-btn.email {
+  background: #0072c6;
+  color: #fff;
+}
+.contact-btn.email:hover {
+  background: #005b9f;
+}

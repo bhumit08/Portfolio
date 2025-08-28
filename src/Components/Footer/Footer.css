@@ -1,0 +1,80 @@
+.footer {
+  background-color: #0d0d0d00; /* Deep black background */
+  color: #fff; /* White text for contrast */
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f2f2f2;
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #aaa; /* Subtle gray for copyright text */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  font-size: 20px;
+}
+
+.footer-links a {
+  color: #f0f0f0;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #DF8908; /* accent color */
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-socials {
+  margin-bottom: 15px;
+}
+
+.footer-socials a {
+  font-size: 2rem; /* Larger size for logos */
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* Specific Colors for Icons */
+.github {
+  color: #333; /* GitHub dark gray */
+}
+
+.linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.email {
+  color: #d44638; /* Email red */
+}
+
+.whatsapp {
+  color: #25d366; /* WhatsApp green */
+}
+
+.footer-icon {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  background-color: #0077b5; /* Highlight color */
+  transform: scale(1.1); /* Slight zoom effect */
+}

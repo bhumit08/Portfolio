@@ -1,33 +1,73 @@
-.navbar{
+.navbar {
   display: flex;
   align-items: center;
-  justify-content:space-between;
-  margin:20px 170px;
+  justify-content: space-between;
+  margin: 15px 80px; /* reduced margins for balance */
 }
 
-.img1{
-  height:200px;
-  width: 200px;
-  margin-top: 5px;
+/* Logo */
+.img1 {
+  height: 150px;   /* smaller logo */
+  width: 150px;
+  margin-top: 4px;
 }
 
-.nav-menu{
+/* Menu items */
+.nav-menu {
   display: flex;
   align-items: center;
-  list-style:none;
-  gap:60px;
-  font-size: 20px;
+  list-style: none;
+  gap: 36px;   /* reduced spacing */
+  font-size: 18px; /* smaller, cleaner */
+  font-weight: 500;
+  color: #f1f1f1;
 }
 
-.nav-connect{
-  padding: 20px 40px;
-  border-radius: 50px;
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923F1 102.0%);
-  font-size: 22px;
+/* Connect button */
+.nav-connect {
+  padding: 12px 28px;  /* smaller button */
+  border-radius: 40px;
+  background-color: #7b8e92;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s ease;
+  color: #fff;
 }
 
-.nav-connect:hover{
+.nav-connect:hover {
   transform: scale(1.05);
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 1024px) {
+  .navbar {
+    margin: 15px 40px;
+  }
+  .nav-menu {
+    gap: 24px;
+    font-size: 15px;
+  }
+  .img1 {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin: 10px 20px;
+  }
+  .nav-menu {
+    gap: 16px;
+    font-size: 14px;
+  }
+  .nav-connect {
+    padding: 10px 22px;
+    font-size: 14px;
+  }
+  .img1 {
+    height: 80px;
+    width: 80px;
+  }
 }
