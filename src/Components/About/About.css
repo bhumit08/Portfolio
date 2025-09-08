@@ -1,88 +1,8 @@
-/* .about{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
-  margin: 80px 170px;
-}
-.about-title{
-  position: relative;
-
-}
-.about-title h1{
-  padding: 0px 30px;
-  font-size: 80px;
-  font-weight: 600;
-}
-.about-title img{
-  position:absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-}
-.about-sections{
-  display:flex;
-  gap:80px;
-}
-.about-right{
-  display: flex;
-  flex-direction: column;
-  gap:80px;
-}
-.about-para{
-  display: flex;
-  flex-direction: column;
-  gap:20px;
-  font-size: 24px;
-  font-weight: 500;
-}
-.about-skills{
-  display: flex;
-  flex-direction: column;
-  gap:20px;
-}
-.about-skill{
-  display: flex;
-  gap:50px;
-  align-items: center;
-  transition: 0.3s;
-}
-.about-skill p{
-  min-width:150px;
-  font-size: 24px;
-  font-weight: 500;
-}
-.about-skill hr{
-  outline: none;
-  border:none;
-  width: 50%;
-  height: 8px;
-  border-radius: 50px;
-  background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-}
-.about-achievements{
-  display: flex;
-  width:100%;
-  justify-content: center;
-  margin-bottom: 80px;
-}
-.about-achievement{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap:10px;
-  transition: 0.5s;
-} */
-
-
-
-/* ===== Overall Section ===== */
 .about-section {
-  background-color: #05050505; /* Deep black background */
-  color: #fff; /* White text for contrast */
+  background-color: #05050505;
+  color: #fff;
   padding: 10px 20px;
-  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+  font-family: 'Poppins', sans-serif;
 }
 
 .about-container {
@@ -94,17 +14,16 @@
   align-items: center;
 }
 
-/* ===== Left Section (Profile) ===== */
 .about-profile {
   flex: 1;
   text-align: center;
 }
 
 .about-profile-img {
-  width: 300px; /* Rectangle width */
-  height: 450px; /* Rectangle height */
-  border-radius: 10px; /* Slightly rounded corners */
-  border: 1px solid #8f8b7f; /* Gold accent */
+  width: 300px; 
+  height: 450px; 
+  border-radius: 10px;
+  border: 1px solid #8f8b7f; 
   object-fit: cover;
   margin-bottom: 20px;
 }
@@ -118,11 +37,10 @@
 .about-title {
   font-size: 16px;
   font-weight: 500;
-  color: #aaa; /* Subtle gray for the title */
+  color: #aaa;
   margin-top: 5px;
 }
 
-/* ===== Right Section (Content) ===== */
 .about-content {
   flex: 2;
 }
@@ -142,11 +60,10 @@
 .about-description {
   font-size: 18px;
   line-height: 1.8;
-  color: #ddd; /* Light gray for readability */
+  color: #ddd;
   margin-bottom: 30px;
 }
 
-/* ===== Skills Section ===== */
 .about-skills {
   margin-bottom: 30px;
 }
@@ -167,7 +84,7 @@
 }
 
 .skills-list li {
-  background: #333; /* Dark gray for skill badges */
+  background: #333;
   color: #fff;
   padding: 10px 20px;
   border-radius: 20px;
@@ -177,12 +94,11 @@
 }
 
 .skills-list li:hover {
-  background: #ccc9ce73; /* Gold on hover */
-  color: #000; /* Black text on hover */
+  background: #ccc9ce73;
+  color: #000; 
   cursor: pointer;
 }
 
-/* ===== Education Section ===== */
 .about-education {
   margin-bottom: 30px;
 }
@@ -195,7 +111,7 @@
 }
 
 .education-card {
-  background: #111; /* Darker gray for cards */
+  background: #111;
   border: 1px solid #333;
   padding: 15px 20px;
   border-radius: 10px;
@@ -205,7 +121,7 @@
 
 
 .education-card:hover {
-  box-shadow: 0 4px 3px rgba(151, 133, 72, 0.5); /* Gold shadow */
+  box-shadow: 0 4px 3px rgba(151, 133, 72, 0.5);
 }
 
 .education-card h5 {
@@ -218,11 +134,9 @@
 .education-card p {
   font-size: 17px;
   margin-bottom: 5px;
-  color: #aaa; /* Subtle gray for text */
+  color: #aaa; 
 }
 
-
-/* ===== Responsive Design ===== */
 @media (max-width: 900px) {
   .about-container {
     flex-direction: column;

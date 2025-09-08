@@ -1,7 +1,7 @@
 .certifications {
   padding: 60px 8%;
   text-align: center;
-  background: #00000000; /* Same as Hero/About background */
+  background: #00000000;
   color: #f5f5f5;
 }
 
@@ -9,7 +9,7 @@
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 40px;
-  color: #47a893; /* Highlight color */
+  color: #47a893;
 }
 
 .certifications-list {
@@ -20,7 +20,7 @@
 }
 
 .cert-card {
-  background: #1b1b1b; /* Flat dark card */
+  background: #1b1b1b;
   border: 1px solid #2a2a2a;
   padding: 20px;
   border-radius: 12px;
@@ -47,7 +47,6 @@
   margin-bottom: 15px;
 }
 
-/* Simple clean button */
 .view-btn {
   display: inline-block;
   padding: 8px 14px;

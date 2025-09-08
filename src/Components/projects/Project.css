@@ -1,18 +1,17 @@
 .projects {
   padding: 60px 10%;
-  background: #1a1a1a; /* same as Hero/About/Certifications */
+  background: #1a1a1a;
   color: #f2f2f2;
   text-align: center;
   font-family: inherit;
 }
 
-/* ===== Overall Section ===== */
 .projects-section {
-  background-color: #0d0d0d00; /* Deep black background */
-  color: #fff; /* White text for contrast */
+  background-color: #0d0d0d00; 
+  color: #fff;
   padding: 100px 20px;
   margin-top: 30px;
-  font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+  font-family: 'Poppins', sans-serif;
 }
 
 .projects-container {
@@ -21,11 +20,10 @@
   text-align: center;
 }
 
-/* Section Title */
 .section-title {
   font-size: 36px;
   font-weight: 700;
-  color: #fff; /* White text for title */
+  color: #fff; 
   margin-bottom: 40px;
   background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
   background-clip: text;
@@ -40,7 +38,6 @@
   margin-bottom: 35px;
 }
 
-/* ===== Projects Grid ===== */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -48,7 +45,7 @@
 }
 
 .project-card {
-  background: #111; /* Dark gray for cards */
+  background: #111;
   border: 1px solid #333;
   border-radius: 10px;
   padding: 20px;
@@ -56,7 +53,6 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-
 
 .project-card h3 {
   font-size: 18px;
@@ -66,14 +62,12 @@
 }
 
 .project-card p {
-  font-family: 'Roboto', sans-serif; /* Modern and clean font */
+  font-family: 'Roboto', sans-serif; 
   font-size: 14px;
-  line-height: 1.6; /* Slightly increased line height for readability */
-  color: #ddd; /* Light gray for readability */
+  line-height: 1.6;
+  color: #ddd;
   margin-bottom: 10px;
 }
-
-/* ===== Project Image ===== */
 .project-image-container {
   position: relative;
   margin-bottom: 20px;
@@ -86,9 +80,9 @@
 }
 
 .project-image-container:hover .project-image {
-  opacity: 0.5; /* Decrease opacity on hover */
-  transform: scale(1.1); /* Increase size of the image */
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+  opacity: 0.5; 
+  transform: scale(1.1); 
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .project-hover-overlay {
@@ -105,16 +99,15 @@
 }
 
 .project-image-container:hover .project-hover-overlay {
-  opacity: 1; /* Show overlay on hover */
+  opacity: 1; 
 }
 
 .project-arrow {
   font-size: 36px;
   font-weight: bold;
-  color: #fff; /* White arrow */
+  color: #fff; 
 }
 
-/* ===== Project Title ===== */
 .project-title {
   font-size: 24px;
   font-weight: 600;
@@ -122,14 +115,12 @@
   margin-bottom: 10px;
 }
 
-/* ===== Project Description ===== */
 .project-description {
   font-size: 16px;
-  color: #ddd; /* Light gray for readability */
+  color: #ddd; 
   margin-bottom: 20px;
 }
 
-/* Tech Stack Tags */
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
@@ -146,7 +137,6 @@
   font-weight: 500;
 }
 
-/* Project Links */
 .project-links {
   display: flex;
   gap: 10px;
@@ -168,7 +158,6 @@
   color: #fff;
 }
 
-/* Mini Projects Section */
 .mini-title {
   font-size: 22px;
   font-weight: 600;
@@ -213,9 +202,8 @@
   color: #DF8908;
 }
 
-/* ===== Code Link ===== */
 .project-code-link {
-  background: #6c63ff; /* Premium purple button */
+  background: #6c63ff; 
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -226,7 +214,7 @@
 }
 
 .project-code-link:hover {
-  background: #4b47c4; /* Darker purple on hover */
+  background: #4b47c4;
 }
 
 

@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Social Links */}
+    
         <div className="footer-socials">
           <a
-            href="https://github.com/bhumit08"
+            href="https://github.com/bhumit08?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="github"
@@ -40,7 +40,6 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Copyright */}
         <p className="footer-text">
           © {new Date().getFullYear()} Bhumit Thumar. All rights reserved.
         </p>
