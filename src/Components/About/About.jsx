@@ -35,6 +35,7 @@ const About = () => {
               <li>Tailwind</li>
               <li>Bootstrap</li>
               <li>JavaScript</li>
+              <li>Python</li>
               <li>React</li>
               <li>Nodejs</li>
               <li>ExpressJs</li>
@@ -42,6 +43,8 @@ const About = () => {
               <li>MySQL</li>
               <li>Git</li>
               <li>GitHub</li>
+              <li>Communication</li>
+              <li>Team Collaboration</li>
             </ul>
           </div>
 
