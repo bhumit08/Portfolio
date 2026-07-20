@@ -3,7 +3,7 @@ import "./Certifications.css";
 
 // Import your certificate images
 import CodeTech from "../../assets/CodeTech.jpg";
-import CertificateOfCompletion from "../../assets/Certificate Of Completion.jpg";
+import CertificateOfCompletion1 from "../../assets/Certificate Of Completion1.jpeg";
 import CertificateOfAppreciation from "../../assets/Certificate Of Appreciation.jpg";
 
 const Certifications = () => {
@@ -12,14 +12,14 @@ const Certifications = () => {
     {
       title: "Internship Completion",
       issuer: "WAY2REACH",
-      year: "2025",
+      year: "2026",
       desc: "Worked on real-world applications, strengthening knowledge in React.js, Node.js, and database management.",
-      img: CertificateOfCompletion,
+      img: CertificateOfCompletion1,
     },
     {
       title: "Certificate of Appreciation",
       issuer: "WAY2REACH",
-      year: "2025",
+      year: "2026",
       desc: "Recognized for valuable contribution and active participation in impactful community-driven coding sessions.",
       img: CertificateOfAppreciation,
     },
