@@ -53,7 +53,7 @@ const About = () => {
             <h4 className="education-heading">Education</h4>
             <div className="education-card">
             <h5>Bachelor of Computer Science (2023-2026)</h5>
-            <p className="cgpi"><b>CGPI:8.39</b></p>
+            <p className="cgpi"><b>81%</b></p>
             <p className="kadi">Kadi Sarva Vishwavidyalaya</p>
             </div>
           </div>
